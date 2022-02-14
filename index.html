@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apache Rescue</title>
+    <script type="text/javascript" src="jquery.js"></script>
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    
+   
+
+</head>
+<body>
+  
+    
+    <div id="container">
+        <div id="background">
+            <div id="start-screen" onclick="start()">
+                <h1>Apache Rescue</h1>
+                <p>Utilize a tecla W para movimentar o apache para cima e S para baixo</p>
+                <p>Resgate os amigos e destrua os inimigos para ganhar pontos</p>
+                <p>Clique para iniciar!</p>
+            </div>
+        </div>
+    </div>
+    <audio src="sons/som.mp3" preload="auto" id="shotSound"></audio>
+    <audio src="sons/explosao.mp3" preload="auto" id="explosionSound"></audio>
+    <audio src="sons/musica_fundo.mp3" preload="auto" id="music"></audio>
+    <audio src="sons/gameover.mp3" preload="auto" id="gameOverSound"></audio>
+    <audio src="sons/perdido.mp3" preload="auto" id="friendLostSound"></audio>	
+    <audio src="sons/resgate.mp3" preload="auto" id="friendSavedSound"></audio>
+    
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="./jquerycollision1.0.2min/jquerycollision1.0.2min/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="./jquerycollision1.0.2min/jquerycollision1.0.2min/jquery-collision.min.js"></script>
+    
+</body>
+</html>
