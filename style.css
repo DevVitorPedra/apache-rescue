@@ -36,16 +36,17 @@ h1{
     width: 256px;
     height: 66px;
     position: absolute;
-    left: 689px;
+    left: 700px;
     top: 253px;
     background-image: url('./imgs/inimigo1.png');
 }
 #enemy2{
-    width: 165px;
-    height: 70px;
+    width: 130px;
+    height: 55px;
     position: absolute;
-    left: 775px;
+    left: 875px;
     top: 447px;
+    background-size: cover;
     background-image: url('./imgs/inimigo2.png');
 }
 #friend{
